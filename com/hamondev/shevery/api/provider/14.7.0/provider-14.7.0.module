@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hamondev.shevery.api",
+    "module": "provider",
+    "version": "14.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.hamondev.shevery.api",
+          "module": "api",
+          "version": {
+            "requires": "14.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "provider-14.7.0.aar",
+          "url": "provider-14.7.0.aar",
+          "size": 11115,
+          "sha512": "0edaea0fa41812b8475e7938e5b47f36274694d079b463f07e369d0118c6cc529377ea387ccee91d52e5bb376dedaa15b2c9c7c9d4dba806db1dd17ae192172f",
+          "sha256": "b4b611e25f44404c8a915db5aa0f27e7dbfe55de3cc9e64a57d342eab7382133",
+          "sha1": "febd4c88134fb234b8e1c0b280d8a69e26cd749a",
+          "md5": "8ee20c43f2325f168ac0c62206b9e959"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.hamondev.shevery.api",
+          "module": "api",
+          "version": {
+            "requires": "14.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "provider-14.7.0.aar",
+          "url": "provider-14.7.0.aar",
+          "size": 11115,
+          "sha512": "0edaea0fa41812b8475e7938e5b47f36274694d079b463f07e369d0118c6cc529377ea387ccee91d52e5bb376dedaa15b2c9c7c9d4dba806db1dd17ae192172f",
+          "sha256": "b4b611e25f44404c8a915db5aa0f27e7dbfe55de3cc9e64a57d342eab7382133",
+          "sha1": "febd4c88134fb234b8e1c0b280d8a69e26cd749a",
+          "md5": "8ee20c43f2325f168ac0c62206b9e959"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "provider-14.7.0-sources.jar",
+          "url": "provider-14.7.0-sources.jar",
+          "size": 5832,
+          "sha512": "74e8e76da4f1593c2ee5433279071806bdceb76da8ecae0f19e702034268b83a58f61a996dbd52fb8e91328ace655ff9f9aa62f81aa7f686883d526ffbdea058",
+          "sha256": "2cf9c4f747dc4f327545d70191adfcd2aef5605a6d81e6719cb260c9c9d2a9e3",
+          "sha1": "f7899eb60582d297c46891dd303d4f27369bf47f",
+          "md5": "690f62fb1fb293bc336be66a9366384a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "provider-14.7.0-javadoc.jar",
+          "url": "provider-14.7.0-javadoc.jar",
+          "size": 432738,
+          "sha512": "194b8b819ad5792c3231e6a05edd191fc4f2ff9b65e6593f12f574139c3b4c2b33777b02c5f440790fad6bdca94c386fa3ccc15d7e288bad11e99a3764e82418",
+          "sha256": "535f2ae6690919ac38ae71e1433e8f474dd6495c1ae330c893f1753f9b39c5aa",
+          "sha1": "6fec891bd181bbc46395c14db983b79307a9a339",
+          "md5": "160552343ba05b4cf1d79c0a1f4d464f"
+        }
+      ]
+    }
+  ]
+}
